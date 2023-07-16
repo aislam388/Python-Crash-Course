@@ -1,0 +1,15 @@
+Write convert_distance fucntion so that it returns the phrase "X miles equals
+Y Km", with Y having only 1 decimal place.For example, covert_distance(12) should
+return "12 miles equals 19.2 Km".
+```
+  
+def convert_distance(miles):
+  km = miles * 1.6
+  result = "{} miles equals {} Km.format(miles, km)
+  return result
+  
+```
+
+print(convert_distance(12))
+print(convert_distance(5.5))
+print(convert_distance(11))
